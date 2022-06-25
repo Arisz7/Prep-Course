@@ -10,9 +10,10 @@ const nuevoNum = 27;
 const nuevoBool = false;
 
 // Resuelve el siguiente problema matemático:
+
 const nuevaResta = 10 - null === 5;
 
-function nuevaResta(num1, num2) {
+function nuevaResta2(num1, num2) {
  var num1 = 10;
  var num2 = null;
 	if (num1 - num2 === 5) {
@@ -21,13 +22,13 @@ function nuevaResta(num1, num2) {
 		return console.log(false);
 	}
 }
-nuevaResta();
+nuevaResta2();
 //Pocas palabras es falso pero por si las dudas
 
 // Resuelve el siguiente problema matemático:
 const nuevaMultiplicacion = 10 * null === 40
  
-function nuevaMultiplicacion(num1, num2) {
+function nuevaMultiplicacion2(num1, num2) {
  var num1 = 10;
  var num2 = null;
 	if (num1 * num2 === 40) {
@@ -36,13 +37,13 @@ function nuevaMultiplicacion(num1, num2) {
 		return console.log(false);
 	}
 }
-nuevaMultiplicacion();
+nuevaMultiplicacion2();
 //Es falso
 
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === null = false;
-function nuevoModulo(num1, num2) {
+function nuevoModulo2(num1, num2) {
  var num1 = 21;
  var num2 = 5;
 	if (num1 % num2 === null) {
@@ -51,7 +52,7 @@ function nuevoModulo(num1, num2) {
 		return (false);
 	}
 }
-nuevoModulo();
+nuevoModulo2();
 //Es falso
 
 
