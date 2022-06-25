@@ -42,19 +42,18 @@ nuevaMultiplicacion2();
 
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo2 = 21 % 5 === null = false;
+const nuevoModulo = 21 % 5 === null;
 function nuevoModulo2(num1, num2) {
  var num1 = 21;
  var num2 = 5;
 	if (num1 % num2 === null) {
-		return (true);
+		return console.log(true);
 	} else {
-		return (false);
+		return console.log(false);
 	}
 }
 nuevoModulo2();
 //Es falso
-
 
 // En los próximos 22 problemas, deberás completar la función.
 // Todo tu código irá dentro de las llaves de la función.
