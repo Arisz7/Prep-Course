@@ -42,7 +42,7 @@ nuevaMultiplicacion2();
 
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null = false;
+const nuevoModulo2 = 21 % 5 === null = false;
 function nuevoModulo2(num1, num2) {
  var num1 = 21;
  var num2 = 5;
