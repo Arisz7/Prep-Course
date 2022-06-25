@@ -11,48 +11,18 @@ const nuevoBool = false;
 
 // Resuelve el siguiente problema matemático:
 
-const nuevaResta = 10 - null === 5;
-
-function nuevaResta2(num1, num2) {
- var num1 = 10;
- var num2 = null;
-	if (num1 - num2 === 5) {
-		return console.log(true);
-	} else {
-		return console.log(false);
-	}
-}
-nuevaResta2();
+const nuevaResta = 10 - null === 5 === false;
+console.log(nuevaResta);
 //Pocas palabras es falso pero por si las dudas
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 40
- 
-function nuevaMultiplicacion2(num1, num2) {
- var num1 = 10;
- var num2 = null;
-	if (num1 * num2 === 40) {
-		return console.log(true);
-	} else {
-		return console.log(false);
-	}
-}
-nuevaMultiplicacion2();
+const nuevaMultiplicacion = 10 * null === 40 === false;
+console.log(nuevaMultiplicacion);
 //Es falso
 
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
-function nuevoModulo2(num1, num2) {
- var num1 = 21;
- var num2 = 5;
-	if (num1 % num2 === null) {
-		return console.log(true);
-	} else {
-		return console.log(false);
-	}
-}
-nuevoModulo2();
+const nuevoModulo = 21 % 5 === null === false;
 //Es falso
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -64,9 +34,9 @@ nuevoModulo2();
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  console.log("Hola " +  str)
+  return(str)
 }
-devolverString("Nancy")
+devolverString("Henry")
 
 
 function suma(x, y) {
@@ -220,7 +190,7 @@ function elevarAlCubo(num) {
 elevarAlCubo(2);
 
 
-function elevar(num, exponent) {
+function elevar(num, exponente) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
   return console.log((Math.pow(num, exponente)));
@@ -343,7 +313,7 @@ function deEuroAdolar(euro){
 		 let resultado = euro * dolar/1.2;
 	   return console.log(resultado)
 	}
- deEuroaDolar(8);
+ deEuroAdolar(8);
 
 
   
@@ -356,14 +326,17 @@ function esVocal(char){
   if(["a", "e", "i", "o", "u"].includes(char.toLowerCase())){
     console.log("Vocal!")  
   }else {
-    console.log("Not a vocal!")
+    console.log("Dato incorrecto!")
   }
 }
 
-isVocal("a"); //Vocal!
-isVocal("j"); //No es vocal!
-isVocal("test"); //No es vocal!
-isVocal(""); //No es vocal!
+esVocal("a"); //Vocal!
+esVocal("e"); //Vocal!
+esVocal("i"); //Vocal!
+esVocal("o"); //Vocal!
+esVocal("u"); //Vocal!
+esVocal("j"); //Dato incorrecto!
+esVocal("test"); //Dato incorrecto!
 
 
 
