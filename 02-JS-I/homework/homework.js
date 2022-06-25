@@ -16,13 +16,12 @@ function nuevaResta(num1, num2) {
  var num1 = 10;
  var num2 = null;
 	if (num1 - num2 === 5) {
-		return true;
+		return console.log(true);
 	} else {
-		return false;
+		return console.log(false);
 	}
 }
-const nuevaResta2 = nuevaResta();
-console.log(nuevaResta2);
+nuevaResta();
 //Pocas palabras es falso pero por si las dudas
 
 // Resuelve el siguiente problema matemático:
@@ -32,13 +31,12 @@ function nuevaMultiplicacion(num1, num2) {
  var num1 = 10;
  var num2 = null;
 	if (num1 * num2 === 40) {
-		return true;
+		return console.log(true);
 	} else {
-		return false;
+		return console.log(false);
 	}
 }
-const nuevaMultiplicacion2 = nuevaMultiplicacion();
-console.log(nuevaMultiplicacion2);
+nuevaMultiplicacion();
 //Es falso
 
 
@@ -48,13 +46,12 @@ function nuevoModulo(num1, num2) {
  var num1 = 21;
  var num2 = 5;
 	if (num1 % num2 === null) {
-		return true;
+		return (true);
 	} else {
-		return false;
+		return (false);
 	}
 }
-const nuevoModulo2 = nuevoModulo();
-console.log(nuevoModulo2);
+nuevoModulo();
 //Es falso
 
 
@@ -204,6 +201,7 @@ function esImpar(num) {
   }
 }
 esImpar();
+
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
@@ -229,6 +227,7 @@ function elevar(num, exponent) {
 }
 elevar(2, 3)
 
+
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
@@ -236,6 +235,7 @@ function redondearNumero(num) {
   return console.log(Math.round(num));
 }
 redondearNumero();
+
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
@@ -245,12 +245,14 @@ function redondearHaciaArriba(num) {
 }
 redondearNumero();
 
+
 function numeroRandom(num) {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
   return console.log(Math.random());
 }
 numeroRandom(0, 1);
+
 
 function esPositivo(numero) {
   //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
@@ -271,6 +273,7 @@ function esPositivo(numero) {
 }
 esPositivo(4);
 
+
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
@@ -278,6 +281,7 @@ function agregarSimboloExclamacion(str) {
   return console.log(`"${"Hello World"}`+ str);
 }
 agregarSimboloExclamacion(`${'!'}"`);
+
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
@@ -289,6 +293,7 @@ function combinarNombres(nombre, apellido) {
 }
 combinarNombres();
 
+
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
@@ -299,6 +304,7 @@ function obtenerSaludo(nombre) {
  return console.log(completo)  
 }
 obtenerSaludo(`${'Martin!'}"`);
+
 
 function obtenerAreaRectangulo(largo, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
@@ -337,8 +343,9 @@ function deEuroAdolar(euro){
 		 let resultado = euro * dolar/1.2;
 	   return console.log(resultado)
 	}
-
  deEuroaDolar(8);
+
+
   
 function esVocal(char){
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
