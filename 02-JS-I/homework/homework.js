@@ -261,8 +261,6 @@ function obtenerSaludo(nombre) {
   return( `Hola ${nombre}!`);
 }
 
-var miNombre = 'Martin';
-obtenerSaludo(miNombre);
 
 
 function obtenerAreaRectangulo(largo, ancho) {
