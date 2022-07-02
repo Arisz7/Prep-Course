@@ -153,11 +153,9 @@ function diaDeLaSemana(numeroDeDia) {
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí
   if(numeroDeDia === 1 || numeroDeDia === 7){
-    return "Es fin de semana";
+    return "Es fin de semana"; 
   }else if(numeroDeDia > 1 && numeroDeDia < 7){
     return "Es dia Laboral";
-  }else{
-    return "No es un numero que corresponda a un dia de la semana";
   }
 }
 
@@ -195,16 +193,22 @@ function mesesDelAño(array) {
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
   var arrayResultado = [];
-  for(var i = 0; i < array.length; i++)
+  for(var i = 0; i < array.length; i++){
     if(array[i] === "Enero" || array[i] === "Marzo" || array[i] === "Noviembre"){
       arrayResultado.push(array[i]);
-    }
+     }
+   }
   if(arrayResultado.length === 3){
-    return arrayResultado;
+      return arrayResultado;
   }else{
-     return"No se encontraron los meses pedidos";
-  }
+  return "No se encontraron los meses pedidos";
+ }
 }
+
+
+
+
+
 
 
 
