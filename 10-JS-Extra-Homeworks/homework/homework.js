@@ -75,13 +75,13 @@ function capicua(numero){
   //izquierda a derecha que de derecha a izquierda. Caso contrario retorna "No es capicua"
   //Escribe tu código aquí
   var numString = numero.toString();
-  var resultado = numString.split('').reverse().join('');
+   resultado = numString.split('').reverse().join('');
   if(numString === resultado){
     return"Es capicua";
   }else{
     return "No es capicua";
   }
-}
+} 
 
 
 function deleteAbc(cadena){
@@ -104,10 +104,10 @@ function sortArray(arr) {
   //La función recibe una matriz de strings. Ordena la matriz en orden creciente de longitudes de cadena
   //Ej: Recibe ---> ["You", "are", "beautiful", "looking"] || Devuelve ---> [“You", "are", "looking", "beautiful"]
   //Escribe tu código aquí
-  var cambio = true;
+ var cambio = true;
   while(cambio){
     cambio = false;
-    for(var i = 0; i < arr.length - 1; i++){
+    for(var i = 0; i < arr.length -1; i++){
       if(arr[i].length > arr[i+1].length){
         var aux = arr[i];
         arr[i] = arr[i+1];
@@ -118,8 +118,6 @@ function sortArray(arr) {
   }
   return arr;
 }
-
-
 function buscoInterseccion(arreglo1, arreglo2){
   //Existen dos arrays, cada uno con 5 números. A partir de ello, escribir una función que permita 
   //retornar un nuevo array con la intersección de ambos elementos. (Ej: [4,2,3] unión [1,3,4] = [3,4].
