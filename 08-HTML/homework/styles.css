@@ -1,0 +1,41 @@
+img {
+	width: 400px;
+}
+
+#thirdDiv{
+display: block;
+height: 500px;
+width: 600px;
+padding: 50px;
+background-image: url('Mesa.jpg');
+background-repeat: no-repeat;
+background-attachment: relative;
+background-size: 950px;
+border-style: solid 0px;
+border-radius: 4px;
+}
+
+#spanId{
+	display: block;
+	font-size: 30px;
+  margin: 50px; 
+	text-align: center;
+	border-style: solid 0px;
+	border-radius: 4px;
+	color: black;
+	}
+
+.divClass {
+  display: block;
+	border-style: solid 0px; 
+	text-align: center;
+	font-size: 18px;
+	}
+
+body{
+background-image: url('soledad.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;
+}
