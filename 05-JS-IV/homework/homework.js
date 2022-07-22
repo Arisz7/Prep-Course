@@ -1,5 +1,4 @@
 // No cambies los nombres de las funciones.
-
 function crearGato (nombre, edad) {
   // Crear un nuevo objeto con la propiedad "nombre" y el valor definido como el argumento "nombre".
   // Agrega una propiedad al objeto con el nombre "edad" y usa el valor definido en el argumento "edad"
@@ -79,11 +78,11 @@ function tienePropiedad (objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(objeto[propiedad])
-    return true;
-{
-return false;
-}
+  if(objeto[propiedad]){
+   return true;
+  }else{
+    return false;
+  }
 }
 
 function verificarPassword (usuario, password) {
@@ -93,8 +92,9 @@ function verificarPassword (usuario, password) {
   // Tu código:
   if(password === usuario.password) {
     return true;
-  }
-  return false;
+  }else{
+  return false;   
+ }
 }
 
 function actualizarPassword (usuario, nuevaPassword) {
