@@ -17,7 +17,6 @@ function obtenerMayor(x, y) {
     }
   }
 }
-obtenerMayor(8, 9);
 
 
 function mayoriaDeEdad(edad) {
@@ -30,7 +29,6 @@ function mayoriaDeEdad(edad) {
     return("Not allowed");
   }
 }
-mayoriaDeEdad(18);
   
 function conection(status) {
   //Recibimos un estado de conexión de un usuario representado por un valor numérico. 
@@ -48,7 +46,6 @@ function conection(status) {
     }
   }
 }
-conection(2);
 
 function saludo(idioma) {
   // Devuelve un saludo en tres diferentes lenguajes:
@@ -75,7 +72,6 @@ function saludo(idioma) {
     }
   }
 }
-saludo("aleman");
 
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
@@ -85,25 +81,19 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
-  if(color === "blue") {
-    return("This is blue"); 
-  } else {
-    if(color === "red") {
-      return("This is red");
-    } else {
-      if(color === "green") {
-        return("This is green");
-      } else {
-        if(color === "orange") {
-          return("This is orange");
-        } else {
-          return("Color not found")
-        }
-      }
-    }
+  switch(color){
+    case "blue":
+      return `This is ${color}`;
+    case "red":
+      return `This is ${color}`;
+    case "green":
+      return `This is ${color}`;
+    case "orange":
+      return `This is ${color}`;
+    default:
+      return "Color not found";
   }
 }
-colors("blue");
 
 function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
@@ -119,7 +109,6 @@ function esDiezOCinco(numero) {
     }
   }
 }
-esDiezOCinco(10);
 
 function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
@@ -131,7 +120,6 @@ function estaEnRango(numero) {
     return(false);
   }
 }
-estaEnRango(40);
 
 function esEntero(numero) {
   // Devuelve "true" si "numero" es un entero (int/integer)
@@ -147,7 +135,6 @@ function esEntero(numero) {
     return(false);
   }
 }
-esEntero(-10);
 
 function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3, devuelve "fizz"
@@ -168,7 +155,6 @@ function fizzBuzz(numero) {
     }
   }
 }
-fizzBuzz(15);
 
 function operadoresLogicos(num1, num2, num3) {
   //La función recibe tres números distintos. 
@@ -192,9 +178,6 @@ function operadoresLogicos(num1, num2, num3) {
     return(false);
   }
 }
-
-operadoresLogicos(1,2,10);
-
   
 function esPrimo(numero) {
   // Devuelve "true" si "numero" es primo
@@ -213,7 +196,6 @@ function esPrimo(numero) {
   }
   return(true);
 }
-esPrimo();
 
 function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
@@ -225,7 +207,6 @@ function esVerdadero(valor){
     return("Soy falso");
   }
 }
-esVerdadero();
 
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
@@ -234,10 +215,9 @@ function tablaDelSeis(){
  const tabla = [0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60];
   for(i = 0; i < 59; i++){
   return(tabla);
+
   } 
 }
-
-tablaDelSeis();
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
@@ -248,7 +228,6 @@ function tieneTresDigitos(numero){
     return(false);
   }
 }
-tieneTresDigitos(100);
 
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
@@ -262,8 +241,6 @@ function doWhile(numero) {
 }while(contador !== 0)
 return numero + resultado;
 }
-
-doWhile();
 
 
 // No modificar nada debajo de esta línea
