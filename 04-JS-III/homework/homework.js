@@ -5,23 +5,19 @@ function devolverPrimerElemento(array) {
   // Tu código:
    return array[0];
 }
-devolverPrimerElemento(2, "adsf", true);
 
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-  return array[array.length -1];
- 
+  return array[array.length -1]; 
 }
-devolverUltimoElemento(2, "adsf", true);
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
   return array.length;
 }
-obtenerLargoDelArray(2, "asdf", true);
 
 function incrementarPorUno(array) {
   // "array" debe ser una matriz de enteros (int/integers)
@@ -34,15 +30,13 @@ function incrementarPorUno(array) {
   }
   return(arrayIncrementado);
 }
-incrementarPorUno(2, 10, 518);
 
 function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
   array.push(elemento);
-  return array;
- 
+  return array; 
 }
 
 function agregarItemAlComienzoDelArray(array, elemento) {
@@ -55,7 +49,6 @@ array.unshift(elemento);
 }
 
 function dePalabrasAFrase(palabras) {
-  "Hello World"
   // "palabras" es un array de strings/cadenas
   // Devuelve un string donde todas las palabras estén concatenadas
   // con espacios entre cada palabra
@@ -98,7 +91,7 @@ function promedioResultadosTest(resultadosTest) {
   for(var i = 0; i < resultadosTest.length; i++){
       acumulador += resultadosTest[i]
   }
-  return acumulador / resultadosTest.length
+  return acumulador / resultadosTest.length;
 }
 
 
